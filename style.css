@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    background-color: rgb(0, 0, 33);
+    font-family: poppins;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(18, 18, 64) ;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(179, 179, 240);
+    font-size: 1.02rem;
+
+}
+
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+    align-items: center;
+   
+}
+.firstSection> div{
+    width: 30%;
+ 
+   
+}
+.leftSection{
+    font-size: 2.2rem;
+
+}
+.rightSection img{
+    width: 80%;
+    margin: 50px 0;
+}
+.purple{
+    color: rgb(134, 88, 177);
+}
+#element{
+    color: rgb(134, 88, 177);
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr{
+    border: 0;
+    background: rgb(203, 203, 255);
+    height: 1.75px;
+    margin: 30px 50px;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+}
+.textGrey{
+    color: grey;
+}
+.secondSection .box{
+    background-color: white;
+    width: 74vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+}
+.secondSection .vertical{
+    background-color: white;
+    height: 93px;
+    width: 1px;
+    margin: 0 135px;
+
+}
+.vertical-title{
+    position: relative;
+    top: 60px;
+    width: 130px;
+
+}
+.vertical-desc{
+    position: relative;
+    top: 80px;
+    color: grey;
+    width: 130px;
+    font-size: 9px;
+
+}
+
+.image-top{
+    width: 30px;
+    position: relative;
+    top: -41px;
+    left: -14px;
+}
+footer{
+    
+    background-color: rgb(37, 40, 55);
+    height: 233px;
+}
+.flex{
+    display: flex;
+    margin: 23px 122px;
+    padding: 23px 70px;
+    justify-content: space-evenly;
+}
+.flex ul{
+    list-style: none;
+}
+.btn{
+    padding: 12px;
+    background-color: rgb(40, 19, 94);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.flex ul a{
+    text-decoration: none;
+    color: white;
+}
+.second ul i{
+    color: #0A66C2;
+    font-size: 20px;
+}
+.third ul i{
+    color: white;
+    font-size: 20px;
+    
+}
+.fourth ul i{
+    color: rgb(209, 106, 123);
+    font-size: 20px;
+    
+}
+.first{
+    justify-content: center;
+}
